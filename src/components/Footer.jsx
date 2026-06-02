@@ -24,43 +24,11 @@ export default function Footer() {
               transportation, warehousing, freight forwarding, and supply chain
               solutions across Indonesia.
             </p>
-
-            <div className="flex gap-3 mt-6">
-              <a
-                href="#"
-                className="border border-gray-700 p-3 rounded-lg hover:bg-white hover:text-blue-600 transition"
-              >
-                <FaFacebookF size={18} />
-              </a>
-
-              <a
-                href="#"
-                className="border border-gray-700 p-3 rounded-lg hover:bg-white hover:text-pink-600 transition"
-              >
-                <FaInstagram size={18} />
-              </a>
-
-              <a
-                href="#"
-                className="border border-gray-700 p-3 rounded-lg hover:bg-white hover:text-blue-700 transition"
-              >
-                <FaLinkedinIn size={18} />
-              </a>
-
-              <a
-                href="#"
-                className="border border-gray-700 p-3 rounded-lg hover:bg-white hover:text-green-600 transition"
-              >
-                <FaWhatsapp size={18} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-5">
-              Quick Links
-            </h3>
+            <h3 className="text-lg font-semibold mb-5">Quick Links</h3>
 
             <ul className="space-y-3 text-gray-400">
               <li>
@@ -76,12 +44,6 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="#services" className="hover:text-white transition">
-                  Services
-                </a>
-              </li>
-
-              <li>
                 <a href="#contact" className="hover:text-white transition">
                   Contact
                 </a>
@@ -91,50 +53,65 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-5">
-              Services
-            </h3>
-
-            <ul className="space-y-3 text-gray-400">
-              <li>Freight Forwarding</li>
-              <li>Warehousing</li>
-              <li>Container Transportation</li>
-              <li>Supply Chain Management</li>
-              <li>Domestic & International Shipping</li>
-            </ul>
+            <h3 className="text-lg font-semibold mb-5">Services</h3>
           </div>
 
           {/* Contact */}
-          <div>
-            <h3 className="text-lg font-semibold mb-5">
-              Contact Us
-            </h3>
-
-            <div className="space-y-4 text-gray-400">
-              <div className="flex items-start gap-3">
-                <MapPin size={18} className="mt-1 flex shrink-0" />
-                <span>
-                  Jakarta, Indonesia
-                  <br />
-                  PT Prantara Logistic Headquarters
-                </span>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <Phone size={18} />
-                <span>+62 812 3456 7890</span>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <Mail size={18} />
-                <span>prantara@gmail.com</span>
-              </div>
+          <div className="space-y-4 text-gray-400">
+            <div className="flex items-start gap-3">
+              <MapPin size={18} className="mt-1 flex shrink-0" />
+              <span>
+                Jakarta, Indonesia
+                <br />
+                PT Prantara Logistic Headquarters
+              </span>
             </div>
+
+            <div className="flex items-center gap-3">
+              <Phone size={18} />
+              <span>+62 XXX XXXX XXXX</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <Mail size={18} />
+              <span>prantaraidn@gmail.com</span>
+            </div>
+
+            <a
+              href="https://www.instagram.com/prantaralogistics.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 hover:text-pink-500 transition"
+            >
+              <FaInstagram size={18} />
+              <span>@prantaralogistics.id</span>
+            </a>
+
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 hover:text-blue-500 transition"
+            >
+              <FaLinkedinIn size={18} />
+              <span>Prantara Logistics</span>
+            </a>
+
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 hover:text-green-500 transition"
+            >
+              <FaWhatsapp size={18} />
+              <span>+62 XXX XXXX XXXX</span>
+            </a>
           </div>
         </div>
 
         <div className="border-t border-slate-800 mt-12 pt-6 text-center text-gray-500">
-          © {new Date().getFullYear()} PT Prantara Logistic. All Rights Reserved.
+          © {new Date().getFullYear()} PT Prantara Logistic. All Rights
+          Reserved.
         </div>
       </div>
     </footer>
