@@ -6,6 +6,7 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", href: "#" },
     { name: "About Us", href: "#about" },
+    { name: "Service", href: "#" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -28,9 +29,20 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 font-medium hover:text-blue-900 transition"
+                className="relative text-gray-700 font-medium hover:text-blue-900 transition group"
               >
                 {item.name}
+
+                <span
+                  className="
+        absolute left-0 -bottom-1
+        h-[2px] w-full bg-blue-900
+        scale-x-0 origin-right
+        transition-transform duration-300
+        group-hover:scale-x-100
+        group-hover:origin-left
+      "
+                />
               </a>
             ))}
           </nav>
