@@ -42,6 +42,11 @@ export default function Footer() {
                   About Us
                 </a>
               </li>
+              <li>
+                <a href="#contact" className="hover:text-white transition">
+                  Service
+                </a>
+              </li>
 
               <li>
                 <a href="#contact" className="hover:text-white transition">

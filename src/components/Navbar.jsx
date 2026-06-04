@@ -6,7 +6,7 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", href: "#" },
     { name: "About Us", href: "#about" },
-    { name: "Service", href: "#" },
+    { name: "Service", href: "#service" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -36,7 +36,7 @@ export default function Navbar() {
                 <span
                   className="
         absolute left-0 -bottom-1
-        h-[2px] w-full bg-blue-900
+        h-0,5 w-full bg-blue-900
         scale-x-0 origin-right
         transition-transform duration-300
         group-hover:scale-x-100
