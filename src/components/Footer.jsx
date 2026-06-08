@@ -59,6 +59,44 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h3 className="text-lg font-semibold mb-5">Services</h3>
+
+            <ul className="space-y-3 text-gray-400">
+              <li>
+                <a href="#services" className="hover:text-white transition">
+                  Land Transportation
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" className="hover:text-white transition">
+                  Warehousing
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" className="hover:text-white transition">
+                  Freight Forwarding
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" className="hover:text-white transition">
+                  Sea Freight
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" className="hover:text-white transition">
+                  Safe Delivery
+                </a>
+              </li>
+
+              <li>
+                <a href="#services" className="hover:text-white transition">
+                  On-Time Service
+                </a>
+              </li>
+            </ul>
           </div>
 
           {/* Contact */}

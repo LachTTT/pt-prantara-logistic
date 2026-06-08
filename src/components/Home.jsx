@@ -48,7 +48,7 @@ export default function Home() {
           </a>
 
           <a
-            href="#services"
+            href="#service"
             className="border border-white px-8 py-4 rounded-lg hover:bg-white hover:text-black active:bg-white/90 text-center text-base transition-colors"
           >
             Service
